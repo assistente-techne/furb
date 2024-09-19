@@ -3,90 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chatbot</title>
+    <title>Chatbot Homologação</title>
 
     <style>
       body {
-        margin: 0px 00px 00px 0;
+        margin: 0px;
         overflow-x: hidden;
         overflow-y: hidden;
-        /* background-image: url(img/fundo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        overflow-y: hidden; */
-        /* background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
       }
 
       .logo {
         width: 100%;
         max-width: 300px;
         padding: 1px;
-        bottom: 0;
-        position: relative;
-        text-align: center;
         border-radius: 20px;
       }
 
-      .parte {
-        width: 100%;
-        max-width: 500px;
-        margin-top: 13%;
-        margin-left: 5%;
-      }
-
-      .img {
-        width: 100%;
-      }
-
-      .div-logo {
-        position: relative;
-        /* background-color: rgba(156, 163, 168, 0.466); */
-        top: 40%;
+      .header {
         text-align: center;
-        width: 500px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 20px;
+        font-family: 'Arial', sans-serif;
       }
 
       .container {
         width: 100vw;
         height: 100vh;
-        /* 
-            background-color: #00264e; */
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-image: url(img/fundo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        overflow-y: hidden; */
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; /* Espaçamento entre as imagens */
+        margin-top: 20px;
       }
 
       .box {
-        margin-top: -200px;
         text-align: center;
         padding: 20px;
         border-radius: 15px;
       }
 
-      body {
-        margin: 0px;
-      }
-
-      .text {
-        color: rgb(10, 10, 10);
-
-        font-size: 27px;
-      }
-
       .ia {
         width: 100%;
-        max-width: 500px;
-        position: relative;
-        margin-top: 200px;
-        left: 40px;
+        max-width: 300px;
       }
 
       .custom-shape-divider-bottom-1671211629 {
@@ -107,17 +74,20 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
       }
 
       .custom-shape-divider-bottom-1671211629 .shape-fill {
-        fill: #1753d9;
+        fill: #031831;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
-        <img src="./img/logo.jpg" class="logo" />
-      <div class="box">
-        <img src="./img/ia.png" class="ia" />
+      <div class="header">Chatbot Homologação</div>
+
+      <div class="image-container">
+        <img src="https://www.furb.br/_upl/files/multimidia/furb_policromia.jpg" class="logo" />
+        <img src="https://img.freepik.com/free-vector/flat-woman-chatting-with-chatbot-communicating-ai-robot-assistant_88138-959.jpg?t=st=1726770171~exp=1726773771~hmac=ceac0ac188a537ff203df1db007b937ef5eedfa292f308984b45fdeed55451f8&w=2000" class="ia" />
       </div>
+
       <div class="custom-shape-divider-bottom-1671211629">
         <svg
           data-name="Layer 1"
